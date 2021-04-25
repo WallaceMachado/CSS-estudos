@@ -54,6 +54,42 @@ h1{
 
   * arquivos css externos
 
+  ## A Castata (cascading)
+
+  A escolha do browser de qual regra aplicar, caso haha muitas regras para o mesmo elemento.
+
+  * Seu estilo é lido de cima para baixo.
+
+  É levado em consiração 3 fatores 
+
+  1. Origem do Estilo
+  2. Especificidade
+  3. Importância
+
+  ### Origem do Estilo
+
+  Inline > tag style > tag link
+
+  ### Especificidade 
+
+  É um cálculo matemático, onde, cada tipo de seletor e origem do estilo, possuem valores a serem considerados.
+
+  0. Universal selector, combinators e negation pseudo-class (:not())
+  1. Element type selector e pseudo-elemet (::before, ::after)
+  10. Calsses e atributte selectors ([type="radio"])
+  100. ID selector
+  1000. inline
+
+  ### A regra !important
+
+  * cuidado, evite o uso
+  * não é uma boa prática
+  * quebra o fluxo natural da cascata
+  * sobrescreve desconsiderando as regras das cascatas
+
+
+
+
 
 
 

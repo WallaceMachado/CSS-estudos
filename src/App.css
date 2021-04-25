@@ -13,7 +13,7 @@
 }
 
 h1 { /* aplicável a tag html h1*/
-  border: 1px solid red;
+  border: 1px solid red !important;
   margin: 20px; /* espaços fora da caixa*/
   padding: 60px; /* espaços dentro da caixa*/
 }
