@@ -33,6 +33,13 @@ h1{
   Class Selector '.red, .m-4'
   Attribute selector, Pseudo-class, Pseudo-element, e outros
 
+  ## Caixas
+
+  * Quase tudo no são caixas do Css
+  * Posicionamentos, tamanhos, espaçamentos, bordas, cores
+  * Caixa pode ficar ao lado ums da outra ou em cima e embaixo
+  * Elementos Html são caixas, Cada elemento é uma caixa
+
 
 
 
