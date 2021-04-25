@@ -7,7 +7,8 @@ function App() {
     <div id="container" className="App">
       <h1>Hello World!!</h1>
     </div>
-      <p>Descrição</p>
+      <p style = {{color: 'blue'}}>Descrição</p>
+      
       <button>Embarcar</button>
 
     </div>

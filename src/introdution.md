@@ -40,6 +40,20 @@ h1{
   * Caixa pode ficar ao lado ums da outra ou em cima e embaixo
   * Elementos Html são caixas, Cada elemento é uma caixa
 
+  ## Adicionando Css
+
+  ### inline
+
+  * atibuto `style` escrito diretamente na tag html
+
+  ### <link>
+
+  * tag html que irá conter o html
+
+  ### @import
+
+  * arquivos css externos
+
 
 
 
